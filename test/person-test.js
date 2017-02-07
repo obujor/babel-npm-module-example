@@ -2,7 +2,7 @@
 /* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
 
 import { expect } from 'chai';
-import Person from '../dist/person';
+import Person from '../src/person';
 
 describe('person tests', () => {
   let person;
