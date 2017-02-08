@@ -13,22 +13,6 @@ $ npm install babel-npm-module-example --save
 Open sourcecode, take a look and start coding...
 https://github.com/anvk/babel-npm-module-example
 
-## GULP or NPM commands?
-
-Currently you can build this project either by running a gulp command or npm build command.
-
-### NPM commands
-
-If you want to build a basic JS module and do not require to run any extra advanced tasks during build you can use [npm-commands](https://github.com/anvk/babel-npm-module-example/tree/npm-commands) branch. Or you can remove `gulpfile.babel.js` file and remove the following npm modules from the project:
-
- - babel-core
- - gulp
- - gulp-babel
- - gulp-eslint
- - gulp-mocha
- - gulp-rimraf
- - run-sequence
-
 #### Using NPM commands
 
 ```
@@ -37,19 +21,6 @@ $ npm run build
 
 ```
 $ npm test
-```
-
-### GULP
-
-For those who needs to run extra scripts and do other complicated tasks upon builds you can use [gulp-commands](https://github.com/anvk/babel-npm-module-example/tree/gulp-commands) branch. Or clean `scripts` object in `package.json` as well as remove the following npm modules from the project:
-
- - rimraf
- - babel-cli
-
-#### Using GULP command
-
-```
-$ node_modules/gulp/bin/gulp.js
 ```
 
 ## Linting?
